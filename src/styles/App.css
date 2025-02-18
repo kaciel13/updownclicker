@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.labelV{
+    --color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 20%;
+    color: var(--color);    
+    text-shadow: 0 0 20px var(--color);
+	
+}
+
+.Buttons{
+    text-align: center;
+}
+
+button{
+    position: relative;
+    text-align: center;
+    border-radius: 0.5em;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.4s,color 0.4s, box-shadow 0.4s,
+    height 0.2s, width 0.2s, font-size 0.2s;
+}
+
+.ButtonUp{
+    background-color: #33d1a9;
+    box-shadow: 0 0 5px #33d1a9;
+    color:white;
+}
+.ButtonUp:hover{
+    background-color: azure;
+    color: #000000;
+    box-shadow: 0 0 20px azure;
+}
+
+
+.ButtonDown{
+    background-color: #ff4f4f;
+    box-shadow: 0 0 5px #ff4f4f;
+    
+}
+
+.ButtonDown:hover{
+    background-color: #000000;
+    color: azure;
+    box-shadow: 0 0 20px #000000;
+}
+.ButtonUp:active {
+    height: 110px;
+    width: 110px;
+    font-size: 26px;
+    box-shadow: 0 0 100px white;
+    z-index: 1;
+    
+  }
+  .ButtonDown:active {
+    height: 110px;
+    width: 110px;
+    font-size: 26px;
+    box-shadow: 0 20px 100px black;
+    z-index: 1;
+  }
+
+  .Timer{
+    margin-top: 20px;
+    text-align: center;
+    color: azure;
+  }
+
+  .text-danger {
+    color: #ff4f4f;
+    text-shadow: 0 0 2px #ff4f4f /* Красный цвет */
+  }
+  
+  .text-default {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff /* Белый цвет */
+  }
+  
