@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/updownclicker/static/css/main.7f6c6f60.css",
+    "main.js": "/updownclicker/static/js/main.8a327897.js",
+    "index.html": "/updownclicker/index.html",
+    "main.7f6c6f60.css.map": "/updownclicker/static/css/main.7f6c6f60.css.map",
+    "main.8a327897.js.map": "/updownclicker/static/js/main.8a327897.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f6c6f60.css",
+    "static/js/main.8a327897.js"
+  ]
+}
